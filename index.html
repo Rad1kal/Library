@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h3>Bookshelf</h3>
+        </div>
+    </header>
+    <div class="main-container">
+        <main>
+            <div class="modal">
+                <form class="modal-content">
+                    <h3>Add you'r book</h3>
+                    <input class = "modal-input-auth" type="text" placeholder="author" required>
+                    <input class = "modal-input-title" type="text" placeholder="title" required>
+                    <input class = "modal-input-pages" type="number" placeholder="number of page" required>
+                    <label>
+                        <input class = "modal-input-is-read" type="checkbox">
+                        Is read ?
+                    </label>
+                    <button class="confirm-book-btn">add book</button>
+                    <button class="cancel-book-btn">cancel</button>
+                </form>
+            </div>
+            <h3>Books</h3>
+            <div class="books-container">
+
+            </div>
+            <button type="submit" class="add-book-btn">Add book</button>
+        </main>
+        
+    </div>
+    <footer>
+        <div class="footer-container">
+            
+        </div>
+    </footer>
+</body>
+</html>
